@@ -2,7 +2,7 @@ diffusers @ git+https://github.com/TMElyralab/diffusers.git@tme
 ip_adapter @ git+https://github.com/tencent-ailab/IP-Adapter.git@main
 clip @ git+https://github.com/openai/CLIP.git@main
 controlnet_aux @ git+https://github.com/TMElyralab/controlnet_aux.git@tme
-mmcm @ git+https://github.com/TMElyralab/MMCM.git@setup
+mmcm @ git+https://github.com/weiwentech/MMCM.git@dev
 # tensorflow==2.12.0
 # tensorboard==2.12.0
 # torch==2.0.1  --index-url https://download.pytorch.org/whl/cu118 
@@ -34,7 +34,7 @@ librosa
 ffmpeg
 easydict
 webp
-mediapipe==0.10.3
+mediapipe
 cython==3.0.2
 easydict
 gdown
@@ -42,7 +42,7 @@ insightface==0.7.3
 ipython
 librosa==0.10.1
 onnx==1.14.1
-onnxruntime==1.15.1
+onnxruntime
 onnxsim==0.4.33
 opencv_python
 Pillow
